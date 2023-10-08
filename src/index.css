@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap);
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.age {
+  transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) 3;
+}
+
+.flex {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+section {
+  height: 100vh;
+}
+
+.input {
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.input button {
+  background-color: #077ebf;
+  color: white;
+  border: 2px solid transparent;
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+  width: 8rem;
+  transition: all 0.5s;
+}
+
+.input button:hover {
+  background-color: white;
+  border: 2px solid #077ebf;
+  color: #077ebf;
+  box-shadow: 5px 5px 5px #077ebf;
+}
+
+.input input {
+  width: 16rem;
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+}
+
+.age-parent {
+  flex-direction: column;
+  box-sizing: border-box;
+
+  align-items: center;
+  gap: 1rem;
+}
+
+.age-parent h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  width: 20rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.age-parent h6 {
+  font-size: 1rem;
+  font-weight: 700;
+  width: 20rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-left: 0.5rem;
+  cursor: pointer;
+}
+
+.parent {
+  justify-content: center;
+  align-items: baseline;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-parent {
+  width: 100vw;
+}
