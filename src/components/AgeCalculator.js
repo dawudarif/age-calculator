@@ -29,7 +29,7 @@ const AgeCalculator = ({ birth, clear }) => {
       const interval = setInterval(() => {
         const formattedAge = calculateAge(birth);
         setAge(formattedAge);
-      }, 1000);
+      }, 50);
 
       return () => clearInterval(interval);
     }
